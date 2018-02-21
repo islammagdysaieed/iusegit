@@ -35,7 +35,7 @@ Your local repo can be connected to multiple remote repositories at once. Exampl
 * `git remote rm <remote name>` Removes remote
 
 ## Undoing Changes
-Use these to when you mess things up and want to revert back to a previous commit. Be careful **Try you best not to change history** unless absolutely necessary. Checkout the beautiful [Atlasian documentation](https://www.atlassian.com/git/tutorials/undoing-changes) for more details.
+Use these to when you mess things up and want to revert back to a previous commit. Be careful **Try your best not to change history** unless absolutely necessary. Checkout the beautiful [Atlasian documentation](https://www.atlassian.com/git/tutorials/undoing-changes) for more details.
 * `git revert <commit id>` Produces a new commit that undoes everything that was done in the provided commit. It's a safe way to undo changes without changing commit history.
 * `git reset --hard` removes all the changes you made and reverts you back to the last commit. You cannot undo this.
 * `git reset --hard <commit id>` removes all the changes you made and reverts you back to the commit you stated. **Do not do this unless absolutely necessary** This will cause you so much pain if you're working with a team.
